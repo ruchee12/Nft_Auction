@@ -1,0 +1,60 @@
+.section{
+  margin: 50px 0px;
+}
+
+.button{
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 15px;
+  width: fit-content;
+  align-self: center;
+}
+
+.button:hover{
+  background-color: rgb(49, 49, 45);
+  color: wheat;
+}
+
+.textarea{
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row{
+  font-size: 18px;
+  margin: 5px 0;
+  display: flex;
+}
+
+.text-input{
+  border-radius: 7px;
+  height: 25px;
+  flex: 50%;
+  text-align: center;
+}
+
+.nft{
+  width: 300px;
+  margin: 19px 0;
+}
+
+label{
+  flex: 50%;
+  align-self: center;
+  margin: 5px
+}
+
+.address{
+  font-family: monospace;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
